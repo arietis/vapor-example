@@ -1,1 +1,1 @@
-web: App --port=$PORT
+web: App --bind 0.0.0.0:$PORT
